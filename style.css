@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Hairline;
+    src: url(Montserrat-Hairline.otf);
+}
+
+h2.name_title {
+  position: absolute;
+  left: 6vw;
+  font-family: Montserrat-Light;
+  font-size: 70px;
+  color: #1762a1;
+}
+/***********************
+  OUTLINE BUTTONS
+************************/
+.btn {
+    width: 100px;
+    align: center;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.btn-header {
+	position: absolute;
+	font-family: Montserrat-Hairline;
+	color: #1762a1;
+}
+
+.btn-resume {
+    right: 1vw;
+    top: calc(7.5vh - 25px);
+}
+
+.btn-github {
+    right: calc(2vw + 100px);
+    top: calc(7.5vh - 25px);
+}
+
+.btn-linkedin {
+    right: calc(3vw + 200px);
+    top: calc(7.5vh - 25px);
+}
+
+.btn-email {
+    right: calc(4vw + 300px);
+    top: calc(7.5vh - 25px);
+}
+
+
+.container-header {
+  background-color: #C0C0C0;
+  height: 15vh;
+  width: 100vw;
+  border-bottom: 4px #0099cc solid;
+  position: relative;
+}
+
+.section-header {
+  font-size: 50px;
+  font-family: Montserrat-Light;
+  color: #1762a1;
+  border-bottom: 4px #0099cc solid;
+}
