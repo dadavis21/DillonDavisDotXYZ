@@ -15,17 +15,20 @@
 
 h2.name_title {
   position: absolute;
-  left: 6vw;
-  font-family: Montserrat-Light;
-  font-size: 70px;
+  vertical-align:middle;
+  font-family: Montserrat;
+  font-size: 5vw;
   color: #1762a1;
 }
+
 /***********************
   OUTLINE BUTTONS
 ************************/
 .btn {
-    width: 100px;
-    align: center;
+    position: absolute;
+    width: 8vw;
+    height: 4vw;
+    top: 3vw;
 }
 
 .btn.outline {
@@ -48,42 +51,115 @@ h2.name_title {
 
 .btn-header {
 	position: absolute;
+  font-size: 1vw;
 	font-family: Montserrat-Hairline;
 	color: #1762a1;
+  vertical-align: middle;
 }
 
 .btn-resume {
     right: 1vw;
-    top: calc(7.5vh - 25px);
 }
 
 .btn-github {
-    right: calc(2vw + 100px);
-    top: calc(7.5vh - 25px);
+    right: 10vw;
 }
 
 .btn-linkedin {
-    right: calc(3vw + 200px);
-    top: calc(7.5vh - 25px);
+    right: 19vw;
 }
 
 .btn-email {
-    right: calc(4vw + 300px);
-    top: calc(7.5vh - 25px);
+    right: 28vw;
 }
 
 
 .container-header {
+  position: fixed;
   background-color: #C0C0C0;
-  height: 15vh;
+  height: 10vw;
   width: 100vw;
   border-bottom: 4px #0099cc solid;
+  z-index: 3;
+}
+
+.container-content {
   position: relative;
 }
 
-.section-header {
-  font-size: 50px;
+.container-me {
+  top: 10vw;
+}
+
+.container-exp {
+  top: 18vw;
+}
+
+.container-proj {
+  top: 23vw;
+}
+
+.container-p {
   font-family: Montserrat-Light;
+  color: #141823;
+  font-size: 2vw;
+}
+
+.section-header {
+  font-size: 4vw;
+  font-family: Montserrat;
   color: #1762a1;
   border-bottom: 4px #0099cc solid;
+}
+
+img {
+  border-radius: 10vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+figcaption {
+   text-align: center;
+   opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+     -moz-transition: opacity 0.3s ease-out;
+      -ms-transition: opacity 0.3s ease-out;
+       -o-transition: opacity 0.3s ease-out;
+          transition: opacity 0.3s ease-out;
+}
+
+figure {
+  width: 15vw;
+  height: 15vw;
+}
+
+figure:hover figcaption {
+   opacity: 1;
+}
+
+img:focus figcaption {
+   opacity: 1;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2vw;
+}
+
+td {
+  text-align: center;
+  width: 15vw;
+  height: 15vw;
+}
+
+.table-5 {
+  margin-left: -3.1vw;
+}
+
+.table-3 {
+  margin-left: 13.9vw;
+}
+
+.table-2 {
+  margin-left: 22.4vw;
 }
