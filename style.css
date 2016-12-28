@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat;
-    src: url(Montserrat-Regular.otf);
+    src: url(fonts/Montserrat-Regular.otf);
 }
 
 @font-face {
     font-family: Montserrat-Light;
-    src: url(Montserrat-Light.otf);
+    src: url(fonts/Montserrat-Light.otf);
 }
 
 @font-face {
     font-family: Montserrat-Hairline;
-    src: url(Montserrat-Hairline.otf);
+    src: url(fonts/Montserrat-Hairline.otf);
 }
 
 h2.name_title {
@@ -80,11 +80,12 @@ h2.name_title {
   height: 10vw;
   width: 100vw;
   border-bottom: 4px #0099cc solid;
-  z-index: 3;
+  z-index: 4;
 }
 
 .container-content {
   position: relative;
+  z-index: 2;
 }
 
 .container-me {
@@ -99,6 +100,10 @@ h2.name_title {
   top: 23vw;
 }
 
+.container-class {
+  top: 28vw;
+}
+
 .container-p {
   font-family: Montserrat-Light;
   color: #141823;
@@ -110,6 +115,7 @@ h2.name_title {
   font-family: Montserrat;
   color: #1762a1;
   border-bottom: 4px #0099cc solid;
+  z-index: 2;
 }
 
 img {
@@ -134,12 +140,15 @@ figure {
 }
 
 figure:hover figcaption {
-   opacity: 0.9;
+   opacity: 0.85;
 }
 
 figcaption {
+  color: white;
   background-color: black;
-  z-index: 2;
+  border-radius: 0.25vw;
+  z-index: 3;
+  font-family: Montserrat-Light;
 }
 
 table {
@@ -153,8 +162,8 @@ td {
   height: 15vw;
 }
 
-.table-5 {
-  margin-left: -3.1vw;
+.table-4 {
+  margin-left: 5.4vw;
 }
 
 .table-3 {
