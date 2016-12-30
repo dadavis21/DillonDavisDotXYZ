@@ -14,6 +14,9 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,13 +29,11 @@
   <body>
 
     <div class="container container-header">
-
-      <button type='button' class='btn btn-primary btn-md outline btn-header btn-resume' onclick="location.href='winter_2016_resume.pdf'">Resume</button>
-      <button type='button' class='btn btn-primary btn-md outline btn-header btn-github' onclick="location.href='http://www.github.com/dillondavis';">Github</button>
-      <button type='button' class='btn btn-primary btn-md outline btn-header btn-linkedin' onclick="location.href='https://www.linkedin.com/in/dillon-davis-609081106';">LinkedIn</button>
-      <button type='button' class='btn btn-primary btn-md outline btn-header btn-email' onclick="location.href='mailto:ddavis14@illinois.edu';">Email</button>
-
       <h2 class="name_title">DILLON DAVIS</h2>
+      <button type='button' class='btn btn-primary btn-md outline btn-header btn-resume' onclick="window.open('winter_2016_resume.pdf', '_blank');">Resume</button>
+      <button type='button' class='btn btn-primary btn-md outline btn-header btn-github' onclick="window.open('http://www.github.com/dillondavis', '_blank');">Github</button>
+      <button type='button' class='btn btn-primary btn-md outline btn-header btn-linkedin' onclick="window.open('https://www.linkedin.com/in/dillon-davis-609081106', '_blank');">LinkedIn</button>
+      <button type='button' class='btn btn-primary btn-md outline btn-header btn-email' onclick="location.href='mailto:ddavis14@illinois.edu';">Email</button>
 
     </div>
 
@@ -71,8 +72,7 @@
               <img src="images/stickman.jpg" alt="film photography pic">
                 <figcaption>
                   I like shooting film photography and developing it myself
-                  when I have time. This is one of my favorite pictures that
-                  I've taken.
+                  when I have time. This is a favorite picture of mine.
                 </figcaption>
             </figure>
           </td>
@@ -143,7 +143,8 @@
                     friends to meet. Think "Tinder for Groups of Friends". I primarily
                     worked on a location based event aggregation web app that I later
                     ported to native iOS as well as smaller features such as intelligently
-                    suggesting friends to invite to the app.
+                    suggesting friends to invite to the app. I used Flask, Mongo, Redis,
+                    Swift/Objective-C, HTML/CSS/JS, AWS, and Git throughout my time there.
                   </figcaption>
             </figure>
           </td>
@@ -190,8 +191,12 @@
             <figure>
               <img src="images/vvoyager.png" alt="cool image">
                 <figcaption>
-                  <h3>Cool Image</h3>
-                  <a href="http://coolplace.com">http://coolplace.com</a>
+                  VirtualVoyager is a trip creation webapp that allows a user
+                  to find a trip based on a keyword such as 'rock climbing' for example.
+                  I led this project for my databases class. We used MariaDB and Flask
+                  on an Apache server. I built the majority of the project other than
+                  the webcrawler for Viator.com used to find relevant locations based on a keyword
+                  and the text parsing required to use WikiVoyage location information.
                 </figcaption>
             </figure>
           </td>
@@ -291,11 +296,6 @@
       </table>
 
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
 
   </body>
 </html>

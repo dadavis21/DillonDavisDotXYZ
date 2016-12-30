@@ -15,8 +15,9 @@
 
 h2.name_title {
   position: absolute;
-  vertical-align:middle;
+  margin: 2.29vw;
   font-family: Montserrat;
+  vertical-align: middle;
   font-size: 5vw;
   color: #1762a1;
 }
@@ -33,15 +34,15 @@ h2.name_title {
 
 .btn.outline {
     background: none;
-    padding: 12px 22px;
 }
 .btn-primary.outline {
     border: 2px solid #0099cc;
-    color: #0099cc;
+    color: #1762a1;
 }
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
     color: #33a6cc;
     border-color: #33a6cc;
+    background: none;
 }
 .btn-primary.outline:active, .btn-primary.outline.active {
     border-color: #007299;
@@ -85,23 +86,27 @@ h2.name_title {
 
 .container-content {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .container-me {
   top: 10vw;
+  z-index: 1;
 }
 
 .container-exp {
   top: 18vw;
+  z-index: 1;
 }
 
 .container-proj {
   top: 23vw;
+  z-index: 1;
 }
 
 .container-class {
   top: 28vw;
+  z-index: 1;
 }
 
 .container-p {
@@ -132,9 +137,15 @@ figcaption {
       -ms-transition: opacity 0.3s ease-out;
        -o-transition: opacity 0.3s ease-out;
           transition: opacity 0.3s ease-out;
+    color: white;
+    background-color: black;
+    border-radius: 0.25vw;
+    z-index: 3;
+    font-family: Montserrat-Light;
 }
 
 figure {
+  z-index: 3;
   width: 15vw;
   height: 15vw;
 }
@@ -143,20 +154,14 @@ figure:hover figcaption {
    opacity: 0.85;
 }
 
-figcaption {
-  color: white;
-  background-color: black;
-  border-radius: 0.25vw;
-  z-index: 3;
-  font-family: Montserrat-Light;
-}
-
 table {
+  z-index: 1;
   border-collapse: separate;
   border-spacing: 2vw;
 }
 
 td {
+  z-index: 1;
   text-align: center;
   width: 15vw;
   height: 15vw;
