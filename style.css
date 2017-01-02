@@ -85,28 +85,23 @@ h2.name_title {
 }
 
 .container-content {
-  position: relative;
   z-index: 1;
 }
 
 .container-me {
-  top: 10vw;
-  z-index: 1;
+  top: 15vw;
 }
 
 .container-exp {
   top: 18vw;
-  z-index: 1;
 }
 
 .container-proj {
   top: 23vw;
-  z-index: 1;
 }
 
 .container-class {
   top: 28vw;
-  z-index: 1;
 }
 
 .container-p {
@@ -115,12 +110,19 @@ h2.name_title {
   font-size: 2vw;
 }
 
+p {
+  font-family: Montserrat-Light;
+  color: #141823;
+  font-size: 1vw;
+}
+
 .section-header {
   font-size: 4vw;
   font-family: Montserrat;
   color: #1762a1;
   border-bottom: 4px #0099cc solid;
   z-index: 2;
+  margin-top: 12vw;
 }
 
 img {
