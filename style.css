@@ -52,8 +52,8 @@ h2.name_title {
 
 .btn-header {
 	position: absolute;
-  font-size: 1vw;
-	font-family: Montserrat-Hairline;
+  font-size: 0.8vw;
+	font-family: Montserrat-Light;
 	color: #1762a1;
   vertical-align: middle;
 }
@@ -179,4 +179,33 @@ td {
 
 .table-2 {
   margin-left: 22.4vw;
+}
+
+.classDivBlue {
+  width: 15vw;
+  height: 15vw;
+  background: #0099cc;
+  border-radius: 10vw;
+  text-align: center;
+  display: table;
+  margin: auto;
+}
+
+.classDivGrey {
+  width: 15vw;
+  height: 15vw;
+  background: #C0C0C0;
+  border-radius: 10vw;
+  text-align: center;
+  display: table;
+  margin: auto;
+}
+
+.classHeader {
+  margin: auto;
+  vertical-align: middle;
+  font-size: 1.5vw;
+  color: white;
+  font-family: Montserrat-Light;
+  display: table-cell;
 }
