@@ -30,7 +30,7 @@
 
     <div class="container container-header">
       <h2 class="name_title">DILLON DAVIS</h2>
-      <button type='button' class='btn btn-primary btn-md outline btn-header btn-resume' onclick="window.open('winter_2016_resume.pdf', '_blank');">Resume</button>
+      <button type='button' class='btn btn-primary btn-md outline btn-header btn-resume' onclick="window.open('fall_2017_resume.pdf', '_blank');">Resume</button>
       <button type='button' class='btn btn-primary btn-md outline btn-header btn-github' onclick="window.open('http://www.github.com/dillondavis', '_blank');">Github</button>
       <button type='button' class='btn btn-primary btn-md outline btn-header btn-linkedin' onclick="window.open('https://www.linkedin.com/in/dillon-davis-609081106', '_blank');">LinkedIn</button>
       <button type='button' class='btn btn-primary btn-md outline btn-header btn-email' onclick="location.href='mailto:ddavis14@illinois.edu';">Email</button>
@@ -52,10 +52,8 @@
                       <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <img src="images/me.png">
-                        <p>Welcome! I'm Dillon. I'm a student, software engineer,
-                        and technology enthusiast. Most of my experience and interests
-                        are backend and data related but I'm definitely an advocate
-                        of clean, simple design and would love to gain experience outside of backend.</p>
+                        <p>Welcome! I'm Dillon - a student, software engineer,
+                        and technology enthusiast.  I love learning about anything in the data stack from massive data processing to machine learning algorithms. Beyond my coursework, I learn about this area through papers and online classes. </p>
                       </div>
                     </div>
 
@@ -72,10 +70,9 @@
                       <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <img src="images/uiuclogo.png">
-                        <p>I'm an undergraduate computer science student at the
-                        University of Illinois Urbana-Champaign. I began my
-                        BS in 2015 and plan to complete it in 2018. I'm currently
-                        considering completing an MCS in 2019.</p>
+                        <p>I'm a computer science student at the
+                        University of Illinois Urbana-Champaign. I'm pursuing a combined BS-MCS degree with a concentration in Big Data and Intelligence from Aug 2015 - May 2019.
+                        </p>
                       </div>
                     </div>
 
@@ -206,11 +203,29 @@
     <div class="container container-content container-exp">
       <h2 class="section-header">Experience</h2>
 
-      <table class="table-2">
+      <table class="table-3">
         <tr>
+          <td>
+                <img src="images/uberlogo.png" alt="Uber Logo" data-toggle="modal" data-target="#uberModal">
+                <div id="uberModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/uberlogo.png">
+                        <p> I interned at Uber as a software engineer on Maps Data from May-Aug 2017.
+                             I designed and implemented a Named Entity Recognition system for address parsing using big data and structured machine learning techniques. First I built a data pipeline using Java’s Cascading framework on AWS ElasticMapReduce to extract necessary data and build massive, robust training datasets for my models with custom features. Then I built Conditional Random Field models using CRFSuite with custom feature engineering to achieve full address accuracies of 93-96% on heldout data for the US, Mexico and Canada.
+The end of my time there was spent building a custom experimental Tensorflow deep learning model based on a Carnegie Mellon paper achieving 98.3-99.1% full address accuracy for US, Mexico, and Canada heldout data</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+          </td>
 
           <td>
-                <img src="images/cliqlogo.png" alt="architecture picture" data-toggle="modal" data-target="#cliqModal">
+                <img src="images/cliqlogo.png" alt="Cliq Logo" data-toggle="modal" data-target="#cliqModal">
                 <div id="cliqModal" class="modal fade" role="dialog">
                   <div class="modal-dialog">
 
@@ -233,7 +248,7 @@
           </td>
 
           <td>
-                <img src="images/bacclogo.png" alt="architecture picture" data-toggle="modal" data-target="#baccModal">
+                <img src="images/bacclogo.png" alt="BACC Logo" data-toggle="modal" data-target="#baccModal">
                 <div id="baccModal" class="modal fade" role="dialog">
                   <div class="modal-dialog">
 
@@ -376,71 +391,17 @@
             <div class="classDivBlue" data-toggle="modal" data-target="#introModal">
               <h1 class="classHeader"> Intro to Computer Science </h1>
             </div>
-            <div id="introModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivBlue">
-                          <h1 class="classHeader"> Intro to Computer Science </h1>
-                        </div>
-                        <p> Basic and fundamental concepts of computer science such as control flow,
-                        recursion, basic data structures, recursion and sorting taught in
-                        Java.
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
 
           <td>
             <div class="classDivGrey" data-toggle="modal" data-target="#discreteModal">
               <h1 class="classHeader"> Discrete Structures </h1>
             </div>
-            <div id="discreteModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivGrey">
-                          <h1 class="classHeader"> Discrete Structures </h1>
-                        </div>
-                        <p>
-                          Discrete mathematical structures frequently used in Computer Science
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
 
           <td>
                 <div class="classDivBlue" data-toggle="modal" data-target="#dsModal">
                   <h1 class="classHeader"> Data Structures </h1>
-                </div>
-                <div id="dsModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivBlue">
-                          <h1 class="classHeader"> Data Structures </h1>
-                        </div>
-                        <p>
-                            Abstraction and implementation of data structures such as trees,
-                            stacks, queues, hash tables, graphs, and sets using
-                            C++
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
                 </div>
           </td>
 
@@ -448,23 +409,6 @@
             <div class="classDivGrey" data-toggle="modal" data-target="#comparchModal">
               <h1 class="classHeader"> Computer Architecture </h1>
             </div>
-                <div id="comparchModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivGrey">
-                          <h1 class="classHeader"> Computer Architecture </h1>
-                        </div>
-                        <p>
-                          Fundamentals of computer architecture using Verilog and MIPS
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
         </tr>
 
@@ -473,71 +417,17 @@
             <div class="classDivGrey" data-toggle="modal" data-target="#systemsModal">
               <h1 class="classHeader"> Systems Programming </h1>
             </div>
-            <div id="systemsModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivGrey">
-                          <h1 class="classHeader"> Systems Programming </h1>
-                        </div>
-                        <p>
-                          Fundamentals of system programming including memory management,
-                          processes, concurrency, file systems, and networking in C
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
 
           <td>
             <div class="classDivBlue" data-toggle="modal" data-target="#numericalModal">
               <h1 class="classHeader"> Numerical Methods </h1>
             </div>
-            <div id="numericalModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivBlue">
-                          <h1 class="classHeader"> Numerical Methods </h1>
-                        </div>
-                        <p>
-                          Fundamental concepts of numerical methods using Python, Numpy,
-                          and MatPlotLib.
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
 
           <td>
                 <div class="classDivGrey" data-toggle="modal" data-target="#databasesModal">
                   <h1 class="classHeader"> Database Systems </h1>
-                </div>
-                <!-- <img src="images/classes/databases.png" alt="architecture picture" data-toggle="modal" data-target="#databasesModal"> -->
-                <div id="databasesModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivGrey">
-                          <h1 class="classHeader"> Database Systems </h1>
-                        </div>
-                        <p>
-                          Theory, organization, and implementation of database systems
-                          using MySQL, Java, and Python.
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
                 </div>
           </td>
 
@@ -545,27 +435,36 @@
             <div class="classDivBlue" data-toggle="modal" data-target="#dataminingModal">
               <h1 class="classHeader"> Intro to Data Mining </h1>
             </div>
-            <div id="dataminingModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="classDivBlue">
-                          <h1 class="classHeader"> Intro to Data Mining </h1>
-                        </div>
-                        <p>
-                          Design, implementation, and application of data warehousing
-                          and data mining concepts.
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
           </td>
 
         </tr>
+
+        <tr>
+          <td>
+            <div class="classDivBlue" data-toggle="modal" data-target="#algoModal">
+              <h1 class="classHeader"> Algorithms and Models of Computation </h1>
+            </div>
+          </td>
+
+          <td>
+            <div class="classDivGrey" data-toggle="modal" data-target="#amlModal">
+              <h1 class="classHeader"> Applied Machine Learning </h1>
+            </div>
+          </td>
+
+          <td>
+            <div class="classDivBlue" data-toggle="modal" data-target="#dsModal">
+              <h1 class="classHeader"> Advanced Data Science </h1>
+            </div>
+          </td>
+
+          <td>
+            <div class="classDivGrey" data-toggle="modal" data-target="#aiModal">
+              <h1 class="classHeader"> Artificial Intelligence (FA 2017) </h1>
+            </div>
+          </td>
+
+      </tr>
 
       </table>
     </div>
